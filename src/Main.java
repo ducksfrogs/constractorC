@@ -6,5 +6,11 @@ public class Main {
 
             System.out.println(customer.getName() + " " + customer.getEmail());
 
+            Customer customer2 = new Customer();
+            System.out.println(customer2.getName() + " " + customer2.getEmail());
+
+            Customer customer3 = new Customer("Joe", "joe@mail.com");
+        System.out.println(customer3.getName() + " " + customer3.getEmail());
+
     }
 }
